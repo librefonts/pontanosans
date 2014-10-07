@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [src/PontanoSans-Regular-OTF.ufo, PontanoSans-Regular.ttf.ttx, src/PontanoSans-Regular.otf.ttx,
+  src/PontanoSans-Regular-OTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
